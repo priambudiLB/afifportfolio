@@ -77,7 +77,7 @@ export const Banner = () => {
           <div class="static-container"><div class="std"><p class="work">From 2021 to 2022 I was<br></br>
           <strong class="wrk">Honorer</strong>@<a href="https://pa-palembang.go.id/" target="_blank" title="Visit Pengadilan website">
             Pengadilan Agama Palembang</a>.</p>
-            <p>a global leader in audience measurement, data and analytics, who are shaping the future of media<br></br> in Indonesia. Learn more about our local offerings.</p>
+            <p>The Religious Court, which is the Court of First Instance, has the duty and authority to examine,<br></br> decide and resolve cases at the first level between people who are Muslim in the field of marriage,<br></br> inheritance, wills and grants made under Islamic law, as well as waqf and shadaqah</p>
           </div>
           </div>
         </Row>
