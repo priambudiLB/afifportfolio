@@ -26,22 +26,22 @@ export const Contact = () => {
                 <Col>
                   <div className="touch">
                     <a href="https://www.linkedin.com/in/afiffasya/"><img src={navIcon1} target="_blank" title="linkedin" alt="" /></a>
-                    <p href="https://www.linkedin.com/in/afiffasya/">linkedin</p>
+                    <p>linkedin</p>
                   </div>
                   <div className="touch">
-                    <a href="https://www.linkedin.com/in/afiffasya/"><img src={navIcon5} target="_blank" title="linkedin" alt="" /></a>
+                    <a href="https://wa.me/6281279143840"><img src={navIcon5} target="_blank" title="linkedin" alt="" /></a>
                     <p>WhatsApp</p>
                   </div>
                   <div className="touch">
-                    <a href="https://www.linkedin.com/in/afiffasya/"><img src={navIcon3} target="_blank" title="linkedin" alt="" /></a>
+                    <a href="https://www.instagram.com/afif_fasya/"><img src={navIcon3} target="_blank" title="linkedin" alt="" /></a>
                     <p>Instagram</p>
                   </div>
                   <div className="touch">
-                    <a href="https://www.linkedin.com/in/afiffasya/"><img src={navIcon4} target="_blank" title="linkedin" alt="" /></a>
+                    <a href="https://github.com/Afiffasya/"><img src={navIcon4} target="_blank" title="linkedin" alt="" /></a>
                     <p>Github</p>
                   </div>
                   <div className="touch">
-                    <a href="https://www.linkedin.com/in/afiffasya/"><img src={navIcon6} target="_blank" title="linkedin" alt="" /></a>
+                    <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=afiffasya18@gmail.com"><img src={navIcon6} target="_blank" title="linkedin" alt="" /></a>
                     <p>Email</p>
                   </div>
                 </Col>
