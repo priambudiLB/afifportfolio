@@ -123,6 +123,7 @@ span.navbar-text {
 .social-icon {
     display: inline-block;
     align-items: center;
+    display: flex;
     margin-left: 14px;
 }
 .social-icon a {
