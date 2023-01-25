@@ -72,11 +72,21 @@ export const SoftSkills = () => {
                     <div className="skill-bx">
                         <h2>Soft Skills</h2>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
+                            <div className="item">
                                 <h5>Problem Solving</h5>
+                            </div>
+                            <div className="item">
                                 <h5>Public Speaking</h5>
+                            </div>
+                            <div className="item">
                                 <h5>Time Management</h5>
+                            </div>
+                            <div className="item">
                                 <h5>Creative thinking</h5>
+                            </div>
+                            <div className="item">
                                 <h5>Flexibility</h5>
+                            </div>
                         </Carousel>
                     </div>
                 </div>
