@@ -4,7 +4,6 @@ import 'react-multi-carousel/lib/styles.css';
 export const HardSkills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -27,27 +26,15 @@ export const HardSkills = () => {
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
+                    <div className="skill-bx">
                         <h2>Hard Skills & Tools</h2>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
+                        <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <h5>HTML5/CSS3</h5>
-                            </div>
-                            <div className="item">
                                 <h5>Javascript</h5>
-                            </div>
-                            <div className="item">
                                 <h5>Bootstrap</h5>
-                            </div>
-                            <div className="item">
                                 <h5>ReactJS</h5>
-                            </div>
-                            <div className="item">
                                 <h5>GIT</h5>
-                            </div>
-                            <div className="item">
                                 <h5>Microsoft Office</h5>
-                            </div>
                         </Carousel>
                     </div>
                 </div>
@@ -60,7 +47,6 @@ export const HardSkills = () => {
 export const SoftSkills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -83,24 +69,14 @@ export const SoftSkills = () => {
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
+                    <div className="skill-bx">
                         <h2>Soft Skills</h2>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
+                        <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <h5>Problem Solving</h5>
-                            </div>
-                            <div className="item">
                                 <h5>Public Speaking</h5>
-                            </div>
-                            <div className="item">
                                 <h5>Time Management</h5>
-                            </div>
-                            <div className="item">
                                 <h5>Creative thinking</h5>
-                            </div>
-                            <div className="item">
                                 <h5>Flexibility</h5>
-                            </div>
                         </Carousel>
                     </div>
                 </div>

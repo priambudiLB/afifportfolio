@@ -18,7 +18,8 @@ export const Banner = () => {
       tick();
     }, delta);
 
-    return () => { clearInterval(ticker) };}, [text])
+    return () => { clearInterval(ticker) };
+  }, [text])
 
   const tick = () => {
     let i = loopNum % toRotate.length;
@@ -44,13 +45,32 @@ export const Banner = () => {
       setIndex(prevIndex => prevIndex + 1);
     }
   }
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1
+    }
+};
 
   return (
     <section className="banner" id="home">
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
-            <TrackVisibility>
+            <TrackVisibility responsive={responsive} infinite={true}>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
@@ -68,15 +88,15 @@ export const Banner = () => {
                 </div>}
             </TrackVisibility>
           </Col>
-          <div class="static-container"><div class="std"><p class="work">From 2018 to 2020 I was<br></br>
-          <strong class="wrk">Surveyor</strong>@<a href="https://www.nielsen.com/id/about-us/locations/indonesia/" target="_blank" title="Visit Nielsen website">
+          <div class="static-container"><div class="std"><p class="work">From 2018 to 2020 I was <strong class="wrk">Surveyor<br></br></strong>
+          @<a href="https://www.nielsen.com/id/about-us/locations/indonesia/"  title="Visit Nielsen website">
             Nielsen The Company Indonesia</a>.</p>
             <p>a global leader in audience measurement, data and analytics, who are shaping the future of media<br></br> in Indonesia. Learn more about our local offerings.</p>
           </div>
           </div>
-          <div class="static-container"><div class="std"><p class="work">From 2021 to 2022 I was<br></br>
-          <strong class="wrk">Honorer</strong>@<a href="https://pa-palembang.go.id/" target="_blank" title="Visit Pengadilan website">
-            Pengadilan Agama Palembang</a>.</p>
+          <div class="static-container"><div class="std"><p class="work">From 2021 to 2022 I was <strong class="wrk">Honorer<br></br></strong>
+          @<a href="https://pa-palembang.go.id/"  title="Visit Pengadilan website">
+            Pengadilan Agama</a>.</p>
             <p>The Religious Court, which is the Court of First Instance, has the duty and authority to examine,<br></br> decide and resolve cases at the first level between people who are Muslim in the field of marriage,<br></br> inheritance, wills and grants made under Islamic law, as well as waqf and shadaqah</p>
           </div>
           </div>

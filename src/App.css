@@ -84,7 +84,8 @@ p.danger {
 
 nav.navbar {
   padding: 18px 0;
-  position: fixed;
+  position: relative;
+  justify-content: center;
   width: 100%;
   top: 0;
   z-index: 9999;
@@ -118,7 +119,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     opacity: 1;
     font-weight: bold;
-    transform: scale(1.5);
+    transform: scale(1.0.6);
 }
 span.navbar-text {
     display: flex;
@@ -249,9 +250,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 0;
   padding: 260px 0 100px 0;
   background-image: url('./assets/img/back1.png');
-  background-position: top center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 .banner .tagline {
   font-weight: 700;
@@ -303,12 +305,13 @@ padding-top: 9rem;
 }
 .std .work {
   color: white;
-  display: block;
+  display:inline-block;
+  justify-content: center;
   line-height: 1;
-  font-size: 65px;
-  letter-spacing: 0.8rem;
+  font-size: 35px;
+  letter-spacing: 0.2rem;
   font-weight: 700;
-  width: 70vw;
+  width: 100%;
 }
 .std .wrk {
   color: #36d7f3;
@@ -326,6 +329,8 @@ padding-top: 9rem;
 .skill {
   padding: 0 0 00px 0;
   position: relative;
+  width: 100%;
+  justify-content: center;
 }
 .skill-bx {
   background: #151515;
@@ -339,10 +344,11 @@ padding-top: 9rem;
   padding-bottom: 55px;
 }
 .skill-slider {
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
+  width: 100%;
+  justify-items: center;
+  position: fixed;
 }
+
 
 /************ Projects Css ************/
 
@@ -365,10 +371,13 @@ padding-top: 9rem;
   position: relative;
 }
 .prj img {
-  display: block;
-  width: 70%;
-  border-radius: 70px;
+  position: relative;
+  width: 100%;
   margin: 25px auto 35px auto;
+  overflow: hidden;
+}
+.detail {
+  margin-bottom: 50px;
 }
 
 /* contact css */
