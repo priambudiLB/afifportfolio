@@ -99,12 +99,10 @@ nav.navbar a.navbar-brand {
     width: 9%;
     color: #36d7f3;
     font-size: 40px;
-    transition: transform .2s;
     font-weight: bold;
 }
 nav.navbar a.navbar-brand:hover {
   color: #36d7f3;
-  transform: scale(1.5);
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -113,6 +111,10 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   padding: 0 25px;
   font-size: 18px;
   opacity: 0.75;
+}
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+    opacity: 1;
 }
 span.navbar-text {
     display: flex;
