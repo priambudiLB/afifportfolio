@@ -245,7 +245,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 100px 0 100px 0;
   background-image: url('./assets/img/back1.png');
   background-position: center;
   background-size: cover;
@@ -348,12 +348,6 @@ padding-top: 9rem;
 
 
 /************ Projects Css ************/
-
-.imgP {
-  display: block;
-  width: 150px;
-  height: 100px;
-}
 .prj {
   font-size: 45px;
   padding-top: 25px;
@@ -363,20 +357,17 @@ padding-top: 9rem;
   text-align: center;
 }
 .prj-slider {
-  width: 80%;
+  width: 70%;
+  background-image: url('./assets/img/back1.png');
   margin: 0 auto;
   position: relative;
 }
 .prj img {
   position: relative;
-  width: 100%;
+  width: 70%;
   margin: 25px auto 35px auto;
   overflow: hidden;
 }
-.detail {
-  margin-bottom: 50px;
-}
-
 /* contact css */
 
 .contact {
